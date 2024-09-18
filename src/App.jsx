@@ -69,9 +69,12 @@ function App() {
 
   return (
     <>
+    <div class="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
       <Navbar />
       <div className='mx-3 md:container md:mx-auto my-5 rounded-xl p-5 bg-violet-100 md:w-1/2'>
+      
       <h1 className='font-bold text-center text-3xl'>Manage your tasks!</h1>
+      
         <div className="addTodo my-5 flex flex-col gap-4">
           <h2 className='text-lg font-bold'>Add a Task</h2>
           <div className="flex">
